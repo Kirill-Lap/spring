@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Info page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <link rel="stylesheet" type="text/css"
+          href="webjars/bootstrap/3.3.7/css/bootstrap.min.css"/>
+
+    <link rel="stylesheet" th:href="@{/css/main.css}"
+          href="../../css/main.css"/>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Spring Boot</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li class="active"><a href="#">Info</a></li>
+                <li><a href="/login">Login</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="starter-template">
+        <h1>Info</h1>
+        <h2>You can see some information here
+            <!--<span th:text="You can see some information here"></span>-->
+            <!--/*@thymesVar id="message" type="java.lang.String"*/-->
+            <!--<span th:text="'Message: Hello, ' + ${message.length()} + '!'"></span>-->
+        </h2>
+    </div>
+    <div class="row">
+        <div class="column">
+            <h2>Important info
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a arcu velit. Quisque pharetra maximus lacus, nec ornare ipsum maximus eget. Donec quis cursus risus. Pellentesque at odio rhoncus lacus tincidunt rutrum. Vestibulum ut pharetra tortor. Duis suscipit, purus ac vestibulum scelerisque, ex ante facilisis velit, eget lobortis sem nibh ut libero. Etiam a venenatis lectus. Morbi suscipit placerat ipsum, in malesuada purus venenatis ac. Integer vel quam at quam tristique feugiat et facilisis dolor. Ut blandit ullamcorper turpis a eleifend. Donec vestibulum turpis vel velit tempor commodo.
+                Aliquam varius ut nibh id convallis. Vivamus vel felis vitae eros iaculis vehicula. Etiam lacinia felis sit amet lectus rutrum placerat. Maecenas mattis diam dolor, eget mollis eros tincidunt in. Duis nec velit suscipit sapien luctus placerat eget et nisl. Cras at est non nisi ullamcorper malesuada. Nunc aliquam efficitur arcu, nec mattis tellus ornare semper.
+            </p>
+        </div>
+        <div class="column">
+            <h3> More important info
+            </h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a arcu velit. Quisque pharetra maximus lacus, nec ornare ipsum maximus eget. Donec quis cursus risus. Pellentesque at odio rhoncus lacus tincidunt rutrum. Vestibulum ut pharetra tortor. Duis suscipit, purus ac vestibulum scelerisque, ex ante facilisis velit, eget lobortis sem nibh ut libero. Etiam a venenatis lectus. Morbi suscipit placerat ipsum, in malesuada purus venenatis ac. Integer vel quam at quam tristique feugiat et facilisis dolor. Ut blandit ullamcorper turpis a eleifend. Donec vestibulum turpis vel velit tempor commodo.
+                Aliquam varius ut nibh id convallis. Vivamus vel felis vitae eros iaculis vehicula. Etiam lacinia felis sit amet lectus rutrum placerat. Maecenas mattis diam dolor, eget mollis eros tincidunt in. Duis nec velit suscipit sapien luctus placerat eget et nisl. Cras at est non nisi ullamcorper malesuada. Nunc aliquam efficitur arcu, nec mattis tellus ornare semper.
+            </p>
+        </div>
+
+    </div>
+</div>
+<!-- /.container -->
+
+<script type="text/javascript"
+        src="webjars/jquery/3.2.1/jquery.js" />
+
+<script type="text/javascript"
+        src="webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script type="text/javascript"
+        src="../../js/main.js"></script>
+
+</body>
+</html>
